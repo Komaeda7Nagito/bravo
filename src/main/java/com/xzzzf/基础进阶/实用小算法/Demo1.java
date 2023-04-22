@@ -32,7 +32,7 @@ public class Demo1 {
         provinces.add(new Province(2L, "上海市"));
         provinces.add(new Province(3L, "浙江省"));
 
-        for (Long i = 4L; i <= 1000000; i++) {
+        for (Long i = 4L; i <= 10000; i++) {
             provinces.add(new Province(i, "default省"));
         }
 
@@ -58,7 +58,7 @@ public class Demo1 {
         cities.add(new City(20L, "余姚市", 3L));
         cities.add(new City(21L, "慈溪市", 3L));
 
-        for (Long i = 22L; i < 1000000; i++) {
+        for (Long i = 22L; i < 10000; i++) {
             cities.add(new City(i, "defaults市", new Random().nextLong(997) + 4L));
         }
 
